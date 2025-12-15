@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent_green">#81C784</color>
+    <color name="animal_color">#4CAF50</color>
+    <color name="background_white">#FAFAFA</color>
+    <color name="clothing_color">#66BB6A</color>
+    <color name="dark_gray">#757575</color>
+    <color name="error_red">#F44336</color>
+    <color name="food_color">#8BC34A</color>
+    <color name="light_gray">#F5F5F5</color>
+    <color name="medium_gray">#E0E0E0</color>
+    <color name="nature_color">#43A047</color>
+    <color name="phrases_color">#689F38</color>
+    <color name="primary_green">#4CAF50</color>
+    <color name="primary_green_dark">#388E3C</color>
+    <color name="primary_green_light">#C8E6C9</color>
+    <color name="success_green">#2E7D32</color>
+    <color name="text_black">#212121</color>
+    <color name="text_gray">#616161</color>
+    <color name="text_on_green">#FFFFFF</color>
+    <color name="warning_orange">#FF9800</color>
+    <color name="white">#FFFFFF</color>
+    <string name="all_pairs_found">Все пары найдены! Проверьте результат</string>
+    <string name="animals">Животные</string>
+    <string name="app_name">LearningEnglishApp</string>
+    <string name="back_to_tasks">📋 Назад к заданиям</string>
+    <string name="back_to_topics">Назад к темам</string>
+    <string name="check">Проверить</string>
+    <string name="choose_answer">Выберите ответ</string>
+    <string name="choose_task_type">Выберите тип задания</string>
+    <string name="choose_topic">Выберите тему</string>
+    <string name="clothing">Одежда</string>
+    <string name="enter_answer">Введите ответ</string>
+    <string name="error_generic">Произошла ошибка</string>
+    <string name="error_no_words">Нет слов для этой темы</string>
+    <string name="food">Еда</string>
+    <string name="hint_matching">Сопоставьте слова</string>
+    <string name="hint_spelling">Введите слово</string>
+    <string name="matching_task">Соответствия</string>
+    <string name="nature">Природа</string>
+    <string name="next">Далее</string>
+    <string name="no">Нет</string>
+    <string name="phrases">Базовые фразы</string>
+    <string name="prompt">Вопрос</string>
+    <string name="question_counter">Вопрос %d/%d</string>
+    <string name="repeat">🔄 Повторить</string>
+    <string name="result">Результат</string>
+    <string name="result_retry">Результат: %1$d%%. Пройди тест ещё раз!</string>
+    <string name="result_success">Отлично! Результат: %1$d%%</string>
+    <string name="select_word_first">Сначала выберите английское слово</string>
+    <string name="spelling_task">Допиши слово</string>
+    <string name="title_matching">Соответствия</string>
+    <string name="title_spelling">Допиши слово</string>
+    <string name="title_yes_no">Да/Нет</string>
+    <string name="topic">Тема: %s</string>
+    <string name="total_words">Всего слов для изучения: %d</string>
+    <string name="yes">Да</string>
+    <string name="yes_no_task">Да/Нет</string>
+    <style name="GreenButton" parent="android:Widget.Button">
+        <item name="android:background">@drawable/button_green_background</item>
+        <item name="android:textColor">@color/text_on_green</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">12dp</item>
+    </style>
+    <style name="GreenEditText" parent="android:Widget.EditText">
+        <item name="android:background">@drawable/edittext_green_background</item>
+        <item name="android:textColor">@color/text_black</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:padding">12dp</item>
+    </style>
+    <style name="SecondaryButton">
+        <item name="android:layout_height">56dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:background">@drawable/button_secondary_background</item>
+        <item name="android:textColor">@color/text_black</item>
+    </style>
+    <style name="Theme.LearningEnglishApp" parent="android:Theme.Material.Light.NoActionBar">
+        
+        <item name="android:colorPrimary">@color/primary_green</item>
+        <item name="android:colorPrimaryDark">@color/primary_green_dark</item>
+        <item name="android:colorAccent">@color/accent_green</item>
+
+        
+        <item name="android:windowBackground">@color/background_white</item>
+        <item name="android:textColorPrimary">@color/text_black</item>
+        <item name="android:textColorSecondary">@color/text_gray</item>
+
+        
+        <item name="android:buttonStyle">@style/GreenButton</item>
+
+        
+        <item name="android:statusBarColor">@color/primary_green_dark</item>
+    </style>
+    <style name="ThemeButton">
+        <item name="android:layout_height">56dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:background">@drawable/button_green_background</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+</resources>

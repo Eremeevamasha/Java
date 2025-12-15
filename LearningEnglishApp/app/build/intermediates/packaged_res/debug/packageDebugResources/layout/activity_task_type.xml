@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/background_white"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Выберите тип задания"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary_green_dark"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/btnYesNo"
+        style="@style/ThemeButton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Да/Нет"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button_green_background"/>
+
+    <Button
+        android:id="@+id/btnSpelling"
+        style="@style/ThemeButton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Допиши слово"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button_green_background"/>
+
+    <Button
+        android:id="@+id/btnMatching"
+        style="@style/ThemeButton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Соответствия"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/button_green_background"/>
+
+    <Button
+        android:id="@+id/btnBack"
+        style="@style/SecondaryButton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Назад к темам"
+        android:background="@drawable/button_secondary_background"/>
+
+</LinearLayout>
