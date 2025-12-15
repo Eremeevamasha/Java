@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Зеленая палитра -->
+    <color name="primary_green">#4CAF50</color>      <!-- Основной зеленый -->
+    <color name="primary_green_dark">#388E3C</color> <!-- Темный зеленый -->
+    <color name="primary_green_light">#C8E6C9</color> <!-- Светлый зеленый -->
+    <color name="accent_green">#81C784</color>       <!-- Акцентный зеленый -->
+
+    <!-- Бело-серые тона -->
+    <color name="white">#FFFFFF</color>
+    <color name="background_white">#FAFAFA</color>   <!-- Слегка серый фон -->
+    <color name="light_gray">#F5F5F5</color>
+    <color name="medium_gray">#E0E0E0</color>
+    <color name="dark_gray">#757575</color>
+
+    <!-- Текст -->
+    <color name="text_black">#212121</color>         <!-- Черный текст -->
+    <color name="text_gray">#616161</color>          <!-- Серый текст -->
+    <color name="text_on_green">#FFFFFF</color>      <!-- Текст на зеленом -->
+
+    <!-- Для кнопок тем -->
+    <color name="animal_color">#4CAF50</color>       <!-- Животные -->
+    <color name="food_color">#8BC34A</color>         <!-- Еда (светло-зеленый) -->
+    <color name="phrases_color">#689F38</color>      <!-- Фразы (темно-зеленый) -->
+    <color name="clothing_color">#66BB6A</color>     <!-- Одежда -->
+    <color name="nature_color">#43A047</color>       <!-- Природа -->
+
+    <!-- Дополнительные -->
+    <color name="success_green">#2E7D32</color>      <!-- Успех -->
+    <color name="error_red">#F44336</color>          <!-- Ошибка -->
+    <color name="warning_orange">#FF9800</color>     <!-- Предупреждение -->
+</resources>
